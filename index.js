@@ -10,7 +10,7 @@ const app = express();
 
 app.use(bodyParser.json());
 app.use(cors({
-    origin: 'https://bfhl-fe-task.vercel.app', 
+    origin: '*', 
     methods: ['POST', 'GET', 'PUT', 'DELETE']
   }));
 
